@@ -59,10 +59,10 @@ body{
     background-image: url("https://raw.githubusercontent.com/tk-sb/Coffee-Corner/master/imgs/blob-one.svg?sanitize=true");
 }
 #blob-two{
-    background-image: url("./imgs/blob-two.svg");
+    background-image: url("https://raw.githubusercontent.com/tk-sb/Coffee-Corner/master/imgs/blob-two.svg?sanitize=true");
 }
 #blob-three{
-    background-image: url("./imgs/blob-three.svg");
+    background-image: url("https://raw.githubusercontent.com/tk-sb/Coffee-Corner/master/imgs/three.svg?sanitize=true");
 }
 .background-text{
     position: absolute;
