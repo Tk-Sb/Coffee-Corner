@@ -56,7 +56,7 @@ body{
     top: 0vh;
 }
 #blob-one{
-    background-image: url("./imgs/blob-one.svg");
+    background-image: url("./imgs/blob-one.svg?sanitize=true");
 }
 #blob-two{
     background-image: url("./imgs/blob-two.svg");
