@@ -56,13 +56,13 @@ body{
     top: 0vh;
 }
 #blob-one{
-    background-image: url("/imgs/blob-one.svg");
+    background-image: url("./imgs/blob-one.svg");
 }
 #blob-two{
-    background-image: url("/imgs/blob-two.svg");
+    background-image: url("./imgs/blob-two.svg");
 }
 #blob-three{
-    background-image: url("/imgs/blob-three.svg");
+    background-image: url("./imgs/blob-three.svg");
 }
 .background-text{
     position: absolute;
