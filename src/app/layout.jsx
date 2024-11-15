@@ -1,4 +1,10 @@
 import "./globals.css";
+import { Inknut_Antiqua } from 'next/font/google'
+
+const inknutAntiqua = Inknut_Antiqua({
+  weight: ['400'],
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -8,9 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`antialiased`}
-      >
+      <body className={`${inknutAntiqua.className} antialiased`} >
         {children}
       </body>
     </html>
