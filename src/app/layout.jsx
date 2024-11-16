@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inknutAntiqua.className} antialiased overflow-hidden `} >
+      <body className={`${inknutAntiqua.className} antialiased `} >
         {children}
       </body>
     </html>
