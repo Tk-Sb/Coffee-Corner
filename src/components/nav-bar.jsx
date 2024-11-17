@@ -2,15 +2,13 @@
 
 import { useState } from "react"
 
-
-
 export default function NavBar () {
   const [isPressed, setIsPressed] = useState("1")
 
   return (
     <>
-      <div className="w-full h-fit flex justify-between items-center px-6 py-4 border-white border-[3px] " >
-        <h1 className="w-fit h-fit text-white text-2xl md:text-3xl  font-medium select-none " >
+      <div className="w-full h-fit flex justify-between items-center px-5 md:px-6 py-4 border-white border-[3px] " >
+        <h1 className="w-fit h-fit text-white text-2xl md:text-3xl font-medium select-none " >
           Coffee Corner
         </h1>
         <div className="md:hidden">
