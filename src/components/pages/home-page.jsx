@@ -4,7 +4,7 @@ import NavBar from "../nav-bar";
 export default function HomeSection() {
   return (
     <>
-      <div className="w-full h-svh px-4 py-12 md:px-6 lg:px-12 flex flex-col justify-between items-end lg:items-start overflow-scroll lg:overflow-auto ">
+      <div className="w-full h-full px-4 py-12 md:px-6 lg:px-12 flex flex-col justify-between items-end lg:items-start overflow-y-scroll lg:overflow-auto ">
         <NavBar></NavBar>
         <div className="w-full h-fit flex flex-col gap-2 md:gap-4 " >
           <h1 className="text-white text-2xl md:text-5xl lg:text-6xl font-semibold " >
