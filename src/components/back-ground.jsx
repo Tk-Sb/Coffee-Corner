@@ -15,7 +15,7 @@ export default function BackGround() {
 function BackGroundText () {
   return (
     <>
-      <div className="w-fit h-fit hidden md:block md:absolute bottom-64 right-0 text-9xl font-medium text-[#261D14] " >
+      <div className="w-fit h-fit hidden md:block md:absolute bottom-0 right-0 text-9xl font-medium text-[#261D14] " >
         Coffee <br /> Corner
       </div>
     </>
@@ -39,7 +39,7 @@ function BackGroundBlobs () {
       </div>
 
       <div className="w-full h-full flex-col justify-between items-start hidden md:flex " >
-        <div className="w-full flex justify-end ">
+        <div className="w-full h-[1px] flex justify-end ">
           <svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.103279 0C160.62 328.067 400 223.16 400 223.16V400C180.221 377.228 -5.00693 92.8766 0.103279 0Z" fill="#261D14"/>
           </svg>
