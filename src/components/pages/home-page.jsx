@@ -22,7 +22,7 @@ export default function HomeSection() {
           <img src="./cup.png" width={300} height={300} className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] " ></img>
         </div>
 
-        <div className="w-[50%] h-fit flex items-center justify-between p-2 border-white border-[3px] " >
+        <div className="w-full lg:w-[50%] h-fit flex items-center justify-between p-2 border-white border-[3px] " >
           <div className="w-fit h-fit flex flex-col gap-2 items-center " >
             <h1 className="text-white text-2xl md:text-5xl font-light " >
               50+
