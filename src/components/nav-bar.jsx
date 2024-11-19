@@ -2,13 +2,13 @@
 
 import { useState } from "react"
 
-export default function NavBar () {
+export default function NavBar ({ color }) {
   const [isPressed, setIsPressed] = useState("1")
 
   return (
     <>
-      <div className="w-full h-fit flex justify-between items-center px-5 md:px-6 py-4 border-white border-[3px] " >
-        <h1 className="w-fit h-fit text-white text-2xl md:text-3xl lg:text-5xl font-medium select-none " >
+      <div className={`w-full h-fit flex justify-between items-center px-5 md:px-6 py-4 border-[${color}] border-[3px] `} >
+        <h1 className={`w-fit h-fit text-[${color}] text-2xl md:text-3xl lg:text-5xl font-medium select-none `} >
           Coffee Corner
         </h1>
         <div className="md:hidden">
@@ -17,7 +17,7 @@ export default function NavBar () {
           </svg>
         </div>
         
-        <nav className="w-[50%] h-fit md:flex justify-between text-white text-base lg:text-2xl font-medium hidden " >
+        <nav className={`w-[50%] h-fit md:flex justify-between text-[${color}] text-base lg:text-2xl font-medium hidden `} >
           <button onClick={() => setIsPressed("1")} className={`${isPressed === '1' ? 'underline underline-offset-8' : '' }`} >
             Home
           </button>
