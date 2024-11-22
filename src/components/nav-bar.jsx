@@ -7,8 +7,8 @@ export default function NavBar ({ color }) {
 
   return (
     <>
-      <div className={`w-full h-fit flex justify-between items-center px-5 md:px-6 py-4 border-[${color}] border-[3px] `} >
-        <h1 className={`w-fit h-fit text-[${color}] text-2xl md:text-3xl lg:text-5xl font-medium select-none `} >
+      <div style={{border: 'solid', color}} className={`w-full h-fit flex justify-between items-center px-5 md:px-6 py-4 border-[3px] `} >
+        <h1 style={{color: color}} className={`w-fit h-fit text-2xl md:text-3xl lg:text-5xl font-medium select-none `} >
           Coffee Corner
         </h1>
         <div className="md:hidden">
@@ -17,7 +17,7 @@ export default function NavBar ({ color }) {
           </svg>
         </div>
         
-        <nav className={`w-[50%] h-fit md:flex justify-between text-[${color}] text-base lg:text-2xl font-medium hidden `} >
+        <nav style={{color: color}} className={`w-[50%] h-fit md:flex justify-between text-base lg:text-2xl font-medium hidden `} >
           <button onClick={() => setIsPressed("1")} className={`${isPressed === '1' ? 'underline underline-offset-8' : '' }`} >
             Home
           </button>

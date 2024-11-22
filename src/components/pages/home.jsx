@@ -4,7 +4,7 @@ import NavBar from "../nav-bar";
 export default function HomeSection() {
   return (
     <>
-      <BackGround mainColor={"#1B1107"} secondColor={"#261D14"} >
+      <BackGround mainColor="#1B1107" secondColor="#261D14" >
         <div className="w-full h-full flex flex-col justify-between items-end " >
           <NavBar color={"#FFFFFF"} ></NavBar>
           <div className="w-full h-fit flex flex-col gap-2 md:gap-4 " >

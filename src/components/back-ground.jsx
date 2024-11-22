@@ -16,7 +16,7 @@ export default function BackGround({ children, mainColor, secondColor }) {
 function BackGroundText ({ secondColor }) {
   return (
     <>
-      <div className={`w-fit h-fit hidden md:block md:absolute bottom-0 right-0 text-9xl font-medium text-[${secondColor}] `} >
+      <div style={{ color: secondColor}} className={`w-fit h-fit hidden md:block md:absolute bottom-0 right-0 text-9xl font-medium -z-10 `} >
         Coffee <br /> Corner
       </div>
     </>
@@ -26,7 +26,7 @@ function BackGroundText ({ secondColor }) {
 function BackGroundBlobs ({ mainColor, secondColor }) {
   return (
     <>
-      <div className={`w-full h-full flex flex-col justify-between absolute top-0 left-0 md:hidden bg-[${mainColor}] -z-10 `} >
+      <div style={{backgroundColor: mainColor}} className={`w-full h-full flex flex-col justify-between absolute top-0 left-0 md:hidden -z-10 `} >
         <div className="w-full h-fit flex justify-end ">
           <svg width="300" height="300" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.103279 0C160.62 328.067 400 223.16 400 223.16V400C180.221 377.228 -5.00693 92.8766 0.103279 0Z" fill={secondColor} />
@@ -39,7 +39,7 @@ function BackGroundBlobs ({ mainColor, secondColor }) {
         </div>
       </div>
 
-      <div className={`w-full h-full md:flex flex-col justify-between absolute top-0 left-0 hidden bg-[${mainColor}] -z-10 `} >
+      <div style={{backgroundColor: mainColor}} className={`w-full h-full md:flex flex-col justify-between absolute top-0 left-0 hidden bg-[${mainColor}] -z-10 `} >
         <div className="w-full h-[1px] flex justify-end ">
           <svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.103279 0C160.62 328.067 400 223.16 400 223.16V400C180.221 377.228 -5.00693 92.8766 0.103279 0Z" fill={secondColor}/>
