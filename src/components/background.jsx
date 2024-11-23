@@ -14,7 +14,7 @@ export default function Background ({ children }) {
 
         </div>
 
-        <div className={`relative `}>
+        <div className={`flex flex-col gap-6 relative `}>
           {children}
         </div>
       </div>
