@@ -6,7 +6,7 @@ export default function HomeSection () {
   return (
     <>
       <Background>
-        <NavBar className={`text-white `}></NavBar>
+        <NavBar className={`text-white border-white `}></NavBar>
         
         <MainText className={`text-white `}>
           Welcome to <br />
