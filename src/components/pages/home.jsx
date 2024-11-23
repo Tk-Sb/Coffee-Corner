@@ -22,11 +22,13 @@ export default function HomeSection () {
             To never miss our upcoming offers and events.
           </SmallText>
         </div>
-        <div className={`w-full h-fit flex justify-end translate-x-4 md:translate-x-6 lg:translate-x-12 `}>
-          <img src="./cup.png" alt="coffee cup png" className={`w-[300px] h-[300px] `} />
+
+        <div className={`w-full h-fit flex justify-end translate-x-4 md:translate-x-6 lg:translate-x-12  lg:absolute lg:top-32 lg:right-0 `}>
+          <img src="./cup.png" alt="coffee cup png" className={`w-[300px] h-[300px] md:w-[500px] md:h-[500px] `} />
         </div>
-        <div className={`w-full h-fit flex justify-between items-center px-2 md:px-6 py-3 lg:py-6 border-[3px] border-white text-white `} >
-          <div className={`min-w-fit flex flex-col justify-center items-center gap-2 `}>
+
+        <div className={`w-full h-fit lg:w-1/2 flex justify-between items-center px-2 md:px-6 py-3 lg:py-6 border-[3px] border-white text-white `} >
+          <div className={`min-w-fit flex flex-col justify-center items-center gap-2 md:gap-4 `}>
             <MainText>
               50+
             </MainText>

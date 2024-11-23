@@ -14,7 +14,7 @@ export default function Background ({ children }) {
 
         </div>
 
-        <div className={`flex flex-col gap-6 relative `}>
+        <div className={`w-full fit flex flex-col gap-6 md:gap-12 relative `}>
           {children}
         </div>
       </div>

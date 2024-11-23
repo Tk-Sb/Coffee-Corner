@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <>
       <HomeSection></HomeSection>
+      <HomeSection></HomeSection>
     </>
   );
 }
