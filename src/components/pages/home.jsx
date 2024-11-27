@@ -1,11 +1,10 @@
 import Background from "../background";
-import NavBar from "../nav-bar";
 import { MainText, SmallText, SubText } from "../text";
 
 export default function HomeSection () {
   return (
     <>
-      <Background>
+      <Background mainColor={"#1B1107"} secondColor={"#261D14"} >
         <div className={`w-full h-fit flex flex-wrap justify-end gap-4 md:gap-0  `}>
           <div className="w-full h-fit xl:w-fit flex-grow flex flex-col gap-2 lg:gap-4  ">
             <MainText className={`text-white `}>
