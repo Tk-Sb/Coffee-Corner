@@ -1,4 +1,5 @@
 import NavBar from "@/components/nav-bar";
+import AboutUsSection from "@/components/pages/about-us";
 import HomeSection from "@/components/pages/home";
 import MenuSection from "@/components/pages/menu";
 
@@ -9,6 +10,7 @@ export default function Home() {
         <NavBar className={`text-white backdrop-blur-lg `}></NavBar>
       </div>
       <HomeSection></HomeSection>
+      <AboutUsSection></AboutUsSection>
       <MenuSection></MenuSection>
     </>
   );
